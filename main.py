@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 class_list = {'0': 'Female', '1': 'Male'}
-st.title("Gender Prediction Based on Vietnamese Names ")
+st.title("Gender Prediction Based on Vietnamese full Names ")
 
 #image = Image.open('ten.png')
 #st.image(image)
@@ -15,7 +15,7 @@ encoder = pkl.load(input_ec)
 input_md = open('lrc_vinames.pkl', 'rb')
 model = pkl.load(input_md)
 
-st.header('Write a feedback')
+st.header('Write a Vietnamese full name')
 txt = st.text_area('', '')
 
 if txt != '':
