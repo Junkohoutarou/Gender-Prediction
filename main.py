@@ -6,7 +6,7 @@ from PIL import Image
 class_list = {'0': 'Female', '1': 'Male'}
 st.title("Gender Prediction Based on Vietnamese full Names ")
 
-image = Image.open('vinames.png')
+image = Image.open("vinames.png")
 st.image(image)
 
 input_ec = open('ec_vinames.pkl', 'rb')
