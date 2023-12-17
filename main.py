@@ -4,6 +4,9 @@ import numpy as np
 from PIL import Image
 
 class_list = {'0': 'Female', '1': 'Male'}
+with open("styles.css") as f:
+    custom_css = f.read()
+st.markdown(f"<style>{custom_css}</style>", unsafe_allow_html=True)
 st.title("Gender Prediction Based on Vietnamese full Names ")
 
 image = Image.open("vinames.png")
