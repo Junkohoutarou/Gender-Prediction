@@ -10,3 +10,20 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+h1 {
+    color: #ff0000;  
+    text-align: center; 
+}
+
+h2 {
+    color: #ff0000; 
+}
+
+h3 {
+    color: #ff0000;  
+}
+
+.css-1l02zno {
+    color: #ff0000; 
+}
